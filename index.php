@@ -32,7 +32,9 @@
             <?php include_once('templates/includes/header.php');?>
             
             <!-- landing-page section -->
-            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1" style="background-image: url('assets/images/businessman-sitting-by-table-cafe.jpg');">
+
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1" >
+            <!-- style="background-image: url('assets/images/businessman-sitting-by-table-cafe.jpg');" -->
                 <div class="container">
                     <div class="row">
 
@@ -40,7 +42,7 @@
 
                             <h6>Welcome to Web and Development</h6>
 
-                            <h3 class="text-white mb-4">Crafting Digital Experiences with Modern Web Solutions</h3>
+                            <h3 class="mb-4">Crafting Digital Experiences with Modern Web Solutions</h3>
 
                             <a href="#section_2" class="btn custom-btn smoothscroll me-3">About US</a>
 

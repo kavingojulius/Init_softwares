@@ -84,7 +84,7 @@ h5 {
 }
 
 h6 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: var(--h6-font-size);
 }
 
@@ -108,7 +108,7 @@ button {
 
 a {
   display: inline-block;
-  color: var(--primary-color);
+  color: var(--dark-color);
   text-decoration: none;
 }
 
@@ -188,7 +188,7 @@ strong {
   cursor: pointer;
   position: relative;
   white-space: nowrap;
-  color: var(--white-color);
+  color: var(--primary-color);
 }
 
 .link::before,
@@ -403,8 +403,11 @@ strong {
   left: 0;
 }
 
+/* navbar background after scrolling*/
 .sticky-wrapper.is-sticky .navbar {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(255, 255, 255);
+  /* background-color: rgba(0, 0, 0, 0.85); */
+  box-shadow: 0 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navbar {
@@ -419,11 +422,11 @@ strong {
   font-size: var(--h3-font-size);
   font-weight: var(--font-weight-bold);
   display: block;
-  color: var(--white-color);
+  color: var(--dark-color);
 }
 
 .navbar-brand-icon {
-  background: var(--secondary-color);
+  background: var(--dark-color);
   border-radius: var(--border-radius-large);
   display: inline-block;
   vertical-align: top;
@@ -446,7 +449,7 @@ strong {
   height: 0;
   border-style: solid;
   border-width: 0 0 20px 20px;
-  border-color: transparent transparent var(--secondary-color) transparent;
+  border-color: transparent transparent var(--dark-color) transparent;
   pointer-events: none;
   transform: rotate(65deg);
 }
@@ -459,7 +462,7 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--white-color);
+  color: var(--dark-color);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-semibold);
   letter-spacing: 0.5px;
@@ -605,11 +608,13 @@ strong {
 -----------------------------------------*/
 .hero-section {
   /* background-image: url('assets/images/businessman-sitting-by-table-cafe.jpg'); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-color: #f2f4f6;
+  /* background-size: cover; */
+  /* background-position: center; */
   position: relative;
   padding-top: 50px;
+  
 }
 
 .hero-section::after {
@@ -620,7 +625,7 @@ strong {
   bottom: 0;
   left: 0;
   pointer-events: none;
-  background-color: rgba(0, 0, 0, 0.45);
+  /* background-color: rgba(0, 0, 0, 0.45); */
 }
 
 .hero-section .row {
@@ -649,7 +654,8 @@ strong {
   FEATURED              
 -----------------------------------------*/
 .featured-section {
-  background-color: var(--custom-btn-bg-color);
+  /* background-color: var(--custom-btn-bg-color); */
+  background-color: #dee1e5;
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -852,7 +858,8 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background: var(--custom-btn-bg-color);
+  /* background: var(--custom-btn-bg-color); */
+  background-color: #dee1e5;
   position: relative;
   overflow: hidden;
 }
@@ -875,12 +882,12 @@ strong {
 }
 
 .contact-section p {
-  color: var(--white-color);
+  color: var(--dark-color);
   font-size: var(--h6-font-size);
 }
 
 .contact-link {
-  color: var(--white-color);
+  color: var(--primary-color);
 }
 
 .contact-section .copyright-text {
